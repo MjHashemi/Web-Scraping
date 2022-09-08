@@ -3,7 +3,7 @@ import requests
 import re
 import mysql.connector
 
-cnx = mysql.connector.connect(user='root', password='1234', host='127.0.0.1', database='machin')
+cnx = mysql.connector.connect(user='root', password='****', host='***.*.*.*', database='machin')
 user_brand = input()
 a = 0
 for i in range(2,100):  
